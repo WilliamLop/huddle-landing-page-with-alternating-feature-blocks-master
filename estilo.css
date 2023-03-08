@@ -134,14 +134,16 @@ body{
 }
 /* MAIN */
 .main{
-    position: relative;
-    
+    display: grid;
+    gap: 2rem;
+    margin: 5rem auto;
 }
+
 /* Estilo las secciones card */
 .card{
     box-sizing: border-box;
     width: 90%;
-    margin: 4rem auto;
+    margin: 0rem auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     align-items: center;
@@ -187,9 +189,7 @@ body{
 }
 
 /* estilo el contenedor ready */
-.card__ready--container{
-    margin-top: 5rem;
-}
+
 .card__ready{
     background: var(--white);
     width: calc(90% - 1rem);
@@ -385,7 +385,7 @@ body{
     }
     .card__ready{
         width: 55%;
-        top: 85px;
+        top: 175px;
     }
     .card__ready--title {
         text-align: center;
@@ -477,7 +477,7 @@ body{
 
     .card__ready{
         width: 55%;
-        top: 75px;
+        top: 200px;
     }
     .card__ready--title {
         text-align: center;
@@ -539,7 +539,8 @@ body{
         
     }
     .card__ready{
-        top: 70px;
+        width: 55%;
+        top: 200px;
     }
 
     .card__ready--title {
@@ -608,7 +609,8 @@ body{
     }
     .card__ready{
         width: 50%;
-        top: 65px;
+        top: 210px;
+
     }
     .footer__info{
         font-size: 0.9em;
@@ -666,7 +668,7 @@ body{
     }
     .card__ready{
         width: 60%;
-        top: 60px;
+        top: 210px;
     }
     .card__ready--title {
         text-align: center;
@@ -739,7 +741,7 @@ body{
         
     }
     .card__ready{
-        top: 55px;
+        top: 210px;
     }
     .card__ready--title {
         text-align: center;
