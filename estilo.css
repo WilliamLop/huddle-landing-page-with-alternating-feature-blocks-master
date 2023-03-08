@@ -135,6 +135,7 @@ body{
 /* MAIN */
 .main{
     position: relative;
+    
 }
 /* Estilo las secciones card */
 .card{
@@ -310,6 +311,9 @@ body{
 
 
 @media (min-width: 48rem){
+    .main{
+        margin: 6rem auto;
+    }
     .rtl{
         direction: rtl;
     }
@@ -422,6 +426,9 @@ body{
 
 }
 @media (min-width: 64rem){
+    .main{
+        margin: 8rem auto;
+    }
     .nav__logo img{
         width: 180px;
     }
@@ -552,6 +559,9 @@ body{
 
 }
 @media (min-width: 90rem){
+    .main{
+        margin: 9rem auto;
+    }
     .welcome{
         align-items: center;
     }
